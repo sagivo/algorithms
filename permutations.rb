@@ -1,3 +1,4 @@
+#recursion 
 def perm arr, i=0
   return p arr if i == arr.size
   (i..arr.size-1).each do |j|
@@ -8,3 +9,15 @@ def perm arr, i=0
 end
 
 perm 'ABC'
+
+=begin | print:  
+#-------------------------
+"ABC"
+"ACB"
+"BAC"
+"BCA"
+"CBA"
+"CAB"
+#-------------------------  
+=end
+
