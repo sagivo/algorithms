@@ -1,7 +1,7 @@
 algorithms
 ==========
 
-algorithms playground for common questions solved in ruby syntax. 
+algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.
 
 #problems
 
