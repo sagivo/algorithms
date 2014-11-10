@@ -9,3 +9,5 @@ algorithms playground for common questions solved in ruby syntax.
 - Find all permutations of array  
 - [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets)
 
+#conribute
+did you find a bug? any way to do it better? please feel free to pull-request it :)
