@@ -1,3 +1,4 @@
+#prints all combinations of join sets
 def join_sets set, i, str = ''
   return p str if str.size == set.size
   for item in set[i]    
