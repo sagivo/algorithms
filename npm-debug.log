@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'pry', '-g' ]
+2 info using npm@1.4.26
+3 info using node@v0.10.26
+4 verbose cache add [ 'pry', null ]
+5 verbose cache add name=undefined spec="pry" args=["pry",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'pry',
+6 verbose parsed url   path: 'pry',
+6 verbose parsed url   href: 'pry' }
+7 silly lockFile 6aa660c0-pry pry
+8 verbose lock pry /Users/sagiv/.npm/6aa660c0-pry.lock
+9 silly lockFile 6aa660c0-pry pry
+10 silly lockFile 6aa660c0-pry pry
+11 verbose addNamed [ 'pry', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 7ddb3a14-pry pry@
+14 verbose lock pry@ /Users/sagiv/.npm/7ddb3a14-pry.lock
+15 silly addNameRange { name: 'pry', range: '*', hasData: false }
+16 verbose request where is /pry
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 7cfc3dd758786c57
+19 verbose url raw /pry
+20 verbose url resolving [ 'https://registry.npmjs.org/', './pry' ]
+21 verbose url resolved https://registry.npmjs.org/pry
+22 verbose request where is https://registry.npmjs.org/pry
+23 info trying registry request attempt 1 at 22:11:23
+24 http GET https://registry.npmjs.org/pry
+25 http 404 https://registry.npmjs.org/pry
+26 silly registry.get cb [ 404,
+26 silly registry.get   { date: 'Fri, 14 Nov 2014 03:11:24 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"CWB16PJWDFW84W95M1AG81E1B"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=0',
+26 silly registry.get     'content-length': '393',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1415934684.481561,VS0,VE26',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly lockFile 7ddb3a14-pry pry@
+28 silly lockFile 7ddb3a14-pry pry@
+29 error 404 Not Found
+29 error 404
+29 error 404 'pry' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Darwin 14.0.0
+31 error command "node" "/usr/local/bin/npm" "install" "pry" "-g"
+32 error cwd /Users/sagiv/dev/algorithms
+33 error node -v v0.10.26
+34 error npm -v 1.4.26
+35 error code E404
+36 verbose exit [ 1, true ]
