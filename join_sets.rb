@@ -5,4 +5,13 @@ def join_sets set, i, str = ''
   end
 end
 
-join_sets [ [1,2,3] , [4,5,6], [7,8] ], 0
+join_sets [ ['A','B'] , ['C','D'], ['E'] ], 0
+
+=begin
+  
+"ACE"
+"ADE"
+"BCE"
+"BDE"
+  
+=end
