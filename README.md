@@ -11,6 +11,7 @@ algorithms playground for common questions solved in ruby syntax. most of it usi
 - [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set)
 - Print all combinations of set joining
 - [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php)
+- [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi)  
 
 #conribute
 did you find a bug? any way to do it better? please feel free to pull-request it :)
