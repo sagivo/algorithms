@@ -1,4 +1,4 @@
-def letters_for_number num
+def letters_for_number num 
   case num
     when 2 
       ['A', 'B', 'C'] 
