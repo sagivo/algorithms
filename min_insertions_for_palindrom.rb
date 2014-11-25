@@ -1,4 +1,4 @@
-#http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/
+#from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/
 def min_insert str, left=0, right=nil
   right ||= str.size-1
   return Float::INFINITY if left > right
