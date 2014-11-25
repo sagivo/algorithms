@@ -1,4 +1,5 @@
 #Dijkstra's_algorithm
+
 class Graph
   Vertex = Struct.new(:name, :neighbours, :dist, :prev)
  
