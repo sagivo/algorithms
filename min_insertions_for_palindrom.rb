@@ -8,4 +8,7 @@ end
 
 p min_insert 'geeks'
 p min_insert 'abcb'
-#return - 3
+p min_insert 'a'
+p min_insert 'aa'
+p min_insert 'afg'
+#return - 3, 1, 0, 0, 1
