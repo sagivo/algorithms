@@ -7,4 +7,5 @@ def min_insert str, left=0, right=nil
 end
 
 p min_insert 'geeks'
-#return
+p min_insert 'abcb'
+#return - 3
