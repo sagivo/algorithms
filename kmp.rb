@@ -1,4 +1,6 @@
 #Knuth–Morris–Pratt algorithm (KMP) algorithm, http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
+#find the ptrn (m) in a string (m) in o(n+m) time and o(m) space. 
+
 def kmp str, ptrn
   m = i = 0
   t = compute_table ptrn
