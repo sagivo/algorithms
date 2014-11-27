@@ -1,9 +1,8 @@
-#Knuth–Morris–Pratt algorithm (KMP) algorithm
+#Knuth–Morris–Pratt algorithm (KMP) algorithm, http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
 
 def kmp str, ptrn
   m = i = 0
   t = compute_table ptrn
-  p t
   results = []
 
   while m + i < str.size
