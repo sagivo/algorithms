@@ -1,0 +1,4 @@
+suffix trees (liner time):
+- longest substring in string (the deepest node)
+- longest common substring of 2 strings (LCA of two nodes)
+- 
