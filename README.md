@@ -16,4 +16,4 @@ algorithms playground for common questions solved in ruby syntax. most of it usi
 - [String matching alorithm. Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 
 #conribute 
-did you find a bug? any way to do it better? please feel free to pull-request it :)
+did you find a bug? any way to do it better? please feel free to pull-request it :) 
