@@ -1,7 +1,6 @@
 def partition arr, lo, hi  
   i,j = lo+1,hi
   while true
-    p "i: #{i} j:#{j}"    
     i+=1 while arr[i] <= arr[lo] and i < hi
     j-=1 while arr[j] > arr[lo] and j > lo
     break if i>=j
@@ -19,4 +18,4 @@ def quicksort arr, lo = 0, hi = nil
   quicksort arr, pivot+1, hi
 end
 
-p quicksort [3,4,2,6,56,14,33,1,9]
+p quicksort [3,4,2,6,56,14,33,1,9,6]
