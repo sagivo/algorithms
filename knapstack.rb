@@ -1,4 +1,4 @@
-#taken from: #from: http://rosettacode.org/wiki/Knapsack_problem/0-1#Ruby
+#taken from http://rosettacode.org/wiki/Knapsack_problem/0-1#Ruby
 KnapsackItem = Struct.new(:name, :cost, :value)
 KnapsackProblem = Struct.new(:items, :max_cost)
  
