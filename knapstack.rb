@@ -1,4 +1,4 @@
-#taken from http://rosettacode.org/wiki/Knapsack_problem/0-1#Ruby
+#taken from http://rosettacode.org/wiki/Knapsack_problem/0-1#Ruby using dynamic programming
 KnapsackItem = Struct.new(:name, :cost, :value)
 KnapsackProblem = Struct.new(:items, :max_cost)
  
