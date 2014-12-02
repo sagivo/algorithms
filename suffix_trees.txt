@@ -1,0 +1,8 @@
+suffix trees (liner time):
+- longest substring in string (the deepest node)
+- longest common substring of 2 strings (LCA of two nodes)
+- number of times substring occure in string (follow the path and see how many childs the node have)
+- longest common subsequence of two strings (concat the strings, get the deepest one who contains the two strings)
+
+KMP:
+  - liner time finding substring in string (substring search)
