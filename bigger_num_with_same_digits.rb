@@ -1,5 +1,5 @@
 def smallest_bigger_number num  
-  num = num.to_s.chars.map(&:to_i)
+  num = num.to_s.chars.map(&:to_i) #convert int to array of ints
   return num.join.to_i if num.size < 2
   for left in (num.size-2).downto(0) do
     for right in (num.size-1).downto(left+1) do
