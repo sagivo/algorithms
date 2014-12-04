@@ -1,4 +1,4 @@
-def foo num  
+def smallest_bigger_number num  
   num = num.to_s.chars.map(&:to_i)
   return num.join.to_i if num.size < 2
   for left in (num.size-2).downto(0) do
@@ -12,5 +12,5 @@ def foo num
   return num.join.to_i
 end
 
-p foo 38276 
+p smallest_bigger_number 38276 
 #will print: 38627
