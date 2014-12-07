@@ -19,4 +19,4 @@ algorithms playground for common questions solved in ruby syntax. most of it usi
 - [Longest common substring problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
 
 #conribute 
-did you find a bug? any way to do it better? please feel free to pull-request it :) 
+did you find a bug? any way to do it better? please feel free to pull-request it :)
