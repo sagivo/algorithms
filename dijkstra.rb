@@ -1,4 +1,4 @@
-#Dijkstra's_algorithm
+#Dijkstra's_algorithm 
 #source: http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby
 class Graph
   Vertex = Struct.new(:name, :neighbours, :dist, :prev)
