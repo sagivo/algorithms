@@ -10,7 +10,7 @@ end
 
 perm 'ABC'
 
-=begin | print:  
+=begin | will print:  
 #-------------------------
 "ABC"
 "ACB"
