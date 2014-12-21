@@ -1,6 +1,6 @@
 #recursion 
 def perm arr, i=0
-  return arr if i == arr.size
+  p arr if i == arr.size
   (i..arr.size-1).each do |j|
     arr[i], arr[j] = arr[j], arr[i]
     perm arr, i+1
@@ -8,7 +8,7 @@ def perm arr, i=0
   end
 end
 
-p perm 'ABC'
+perm 'ABC'
 
 =begin | print:  
 #-------------------------
