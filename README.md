@@ -7,7 +7,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 # Problems
 
 - [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence)  
-- Find all permutations of array  
+- [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation)
 - [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets)  
 - [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set)
 - Print all combinations of set joining
