@@ -1,9 +1,9 @@
-algorithms
+Algorithms
 ==========
 
-algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.
+Algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.
 
-#problems
+# Problems
 
 - [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence)  
 - Find all permutations of array  
@@ -18,5 +18,5 @@ algorithms playground for common questions solved in ruby syntax. most of it usi
 - [Knapstack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common substring problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
 
-#conribute 
-did you find a bug? any way to do it better? please feel free to pull-request it :)
+# Contribute 
+Did you find a bug? any way to do it better? please feel free to pull-request it :)
