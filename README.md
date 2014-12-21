@@ -15,7 +15,7 @@ Algorithms playground for common questions solved in ruby syntax. most of it usi
 - [Find the minimum insertions needed to make a word palindrome](from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/)
 - [String matching alorithm. Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort) in ruby
-- [Knapstack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
+- [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common substring problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
 
 # Contribute 
