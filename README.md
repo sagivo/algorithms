@@ -1,7 +1,8 @@
 Algorithms
 ==========
 
-Algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.
+Algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.  
+In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.
 
 # Problems
 
