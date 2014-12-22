@@ -1,4 +1,5 @@
 def partition arr, lo, hi  
+  def Bhar
   i,j = lo+1,hi
   while true
     i+=1 while arr[i] <= arr[lo] and i < hi
