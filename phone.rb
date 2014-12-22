@@ -35,12 +35,17 @@ def phone_options number
   join_sets set
 end
 
-phone_options '102-345-6789'
+phone_options '10-34'
 =begin
   
-"ACE"
-"ADE"
-"BCE"
-"BDE"
+"100DG"
+"100DH"
+"100DI"
+"100EG"
+"100EH"
+"100EI"
+"100FG"
+"100FH"
+"100FI"
   
 =end
