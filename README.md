@@ -10,6 +10,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation)
 - [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets)  
 - [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set)
+- [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 - Print all combinations of set joining
 - [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php)
 - [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi)  
