@@ -2,7 +2,7 @@ Algorithms
 ==========
 
 Algorithms playground for common questions solved in ruby syntax. most of it using dynamic-programming.  
-In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.
+In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.  
 
 # Problems
 
@@ -21,3 +21,8 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 
 # Contribute 
 Did you find a bug? any way to do it better? please feel free to pull-request it :)
+
+# Why?
+I interviewed with Google, Facebook, LinkedIn and others. 
+Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorisation of the same tricks. 
+This is my way of saying - change your interview style. There are lots of smart people, this is not the way to find them. 
