@@ -4,7 +4,6 @@
 require "matrix"
 
 class GameOfLife
-
   attr_accessor :matrix, :cells, :rows, :columns
 
   def initialize rows, columns
@@ -36,7 +35,6 @@ class GameOfLife
 end
 
 class Cell
-
   attr_accessor :row, :column, :alive, :previous_alive
 
   def initialize row, column, alive=false
@@ -58,7 +56,6 @@ class Cell
         end
       end
     end
-
     @neighbours
   end
 
