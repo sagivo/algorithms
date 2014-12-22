@@ -1,5 +1,5 @@
 #Longest common subsequence problem
-#https://en.wikipedia.org/wiki/Longest_common_substring_problem
+#https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 def LCSLength (x, y)
     h = Array.new(x.size) {Array.new(y.size)}
     x.size.times {|i| h[i][0] = x[0] == y[0] ? 1 : 0 }
