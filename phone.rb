@@ -1,5 +1,7 @@
 def letters_for_number num 
   case num
+    when 0, 1
+      [num]
     when 2 
       ['A', 'B', 'C'] 
     when 3 
@@ -16,6 +18,8 @@ def letters_for_number num
       ['T', 'U', 'V']
     when 9 
       ['W' ,'X', 'Y']
+    else
+      []
   end  
 end
 
@@ -31,7 +35,7 @@ def phone_options number
   join_sets set
 end
 
-phone_options 8662665
+phone_options '102-345-6789'
 =begin
   
 "ACE"
