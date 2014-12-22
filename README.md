@@ -20,7 +20,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 
 # Why?
-I interviewed with Google, Facebook, LinkedIn and others. 
+I interviewed with Google, Facebook, Twitter, LinkedIn and others. 
 Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorisation of the same tricks. 
 This is my way of saying - change your interview style. There are lots of smart people, this is not the way to find them. 
 
