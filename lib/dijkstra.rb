@@ -1,8 +1,8 @@
-#Dijkstra's_algorithm 
+#Dijkstra's_algorithm
 #source: http://rosettacode.org/wiki/Dijkstra's_algorithm#Ruby
 class Graph
   Vertex = Struct.new(:name, :neighbours, :dist, :prev)
- 
+
   def initialize(graph)
     @vertices = Hash.new{|h,k| h[k]=Vertex.new(k,[],Float::INFINITY)}
     @edges = {}
@@ -13,7 +13,7 @@ class Graph
     end
     @dijkstra_source = nil
   end
- 
+
   def dijkstra(source)
     return  if @dijkstra_source == source
     q = @vertices.values
@@ -39,7 +39,7 @@ class Graph
     end
     @dijkstra_source = source
   end
- 
+
   def shortest_path(source, target)
     dijkstra(source)
     path = []
@@ -50,24 +50,8 @@ class Graph
     end
     return path, @vertices[target].dist
   end
- 
+
   def to_s
-    "#<%s vertices=%p edges=%p>" % [self.class.name, @vertices.values, @edges] 
+    "#<%s vertices=%p edges=%p>" % [self.class.name, @vertices.values, @edges]
   end
 end
- 
-g = Graph.new([ [:a, :b, 7],
-                [:a, :c, 9],
-                [:a, :f, 14],
-                [:b, :c, 10],
-                [:b, :d, 15],
-                [:c, :d, 11],
-                [:c, :f, 2],
-                [:d, :e, 6],
-                [:e, :f, 9],
-              ])
- 
-start, stop = :a, :e
-path, dist = g.shortest_path(start, stop)
-puts "shortest path from #{start} to #{stop} has cost #{dist}:"
-puts path.join(" -> ")
