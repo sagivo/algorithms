@@ -1,16 +1,20 @@
 # Alogirthm for Game of Life 
 # Check more details here - http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-require "matrix"
+require "benchmark"
 
 class GameOfLife
   attr_accessor :matrix, :cells, :rows, :columns
 
   def initialize rows, columns
     @rows, @columns = rows, columns
-    @matrix = Matrix.build(rows, columns) do |row, column|
-      Cell.new(row, column)
-    end.to_a
+    @matrix = []
+    rows.times do |row_index|
+      @matrix[row_index] ||= []
+      columns.times do |column_index|
+        @matrix[row_index][column_index] = Cell.new(row_index, column_index)
+      end
+    end
     @cells = @matrix.flatten
   end
 
@@ -79,4 +83,19 @@ class Cell
   def reborn
     @alive = true
   end
+end
+
+game = GameOfLife.new(100, 100)
+
+# set alive cells
+game.cells[22].alive = true
+game.cells[23].alive = true
+game.cells[24].alive = true
+game.cells[26].alive = true
+game.cells[16].alive = true
+game.cells[36].alive = true
+
+5.times do
+  puts Benchmark.measure { game.next_tick }
+  game.print_cells
 end
