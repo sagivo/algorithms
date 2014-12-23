@@ -17,10 +17,22 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php)
 - [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi)  
 - [Find the minimum insertions needed to make a word palindrome](from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/)
-- [String matching alorithm. Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
+- [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)
 - [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+
+#How?  
+Simply take a look at the `lib` folder. All the code is there. In case you want to run any function look at the `test` folder to see some samples.  
+Example:
+
+`BracketsCombinations.perform('', 0, 0, 3)`  
+will print:
+((()))  
+(()())  
+(())()  
+()(())  
+()()()  
 
 # Why?
 I interviewed with Google, Facebook, Twitter, LinkedIn and others. 
