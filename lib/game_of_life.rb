@@ -1,8 +1,6 @@
 # Alogirthm for Game of Life 
 # Check more details here - http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-require "benchmark"
-
 class GameOfLife
   attr_accessor :matrix, :cells, :rows, :columns
 
@@ -96,6 +94,6 @@ game.cells[16].alive = true
 game.cells[36].alive = true
 
 5.times do
-  puts Benchmark.measure { game.next_tick }
+  game.next_tick
   game.print_cells
 end
