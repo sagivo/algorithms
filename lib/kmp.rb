@@ -39,4 +39,4 @@ def compute_table ptrn
   arr
 end
 
-p kmp 'banana', 'na'
+p kmp 'banana', 'na' #[2,4]
