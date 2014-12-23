@@ -25,7 +25,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 #How?  
 Simply take a look at the `lib` folder. All the code is there. In case you want to run any function look at the `test` folder to see some samples. Example:  
 `BracketsCombinations.perform('', 0, 0, 3)`  
-will print:
+will print:  
 ((()))  
 (()())  
 (())()  
