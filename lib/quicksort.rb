@@ -18,5 +18,4 @@ def quicksort arr, lo = 0, hi = nil
   quicksort arr, pivot+1, hi
 end
 
-p quicksort [3,4,2,6,56,14,33,1,9,6]
-#[1, 2, 3, 4, 6, 6, 9, 14, 33, 56]
+p quicksort [3,4,2,6,56,14,33,1,9,6] #[1, 2, 3, 4, 6, 6, 9, 14, 33, 56]

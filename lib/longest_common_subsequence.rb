@@ -1,4 +1,4 @@
-#Longest common subsequence problem
+#Longest common subsequence problem 
 #https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 def LCSLength (x, y)
     h = Array.new(x.size) {Array.new(y.size)}

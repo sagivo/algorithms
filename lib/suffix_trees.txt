@@ -5,4 +5,4 @@ suffix trees (liner time):
 - longest common subsequence of two strings (concat the strings, get the deepest one who contains the two strings)
 
 KMP:
-  - liner time finding substring in string (substring search)
+  - liner time finding substring in string (substring search) 
