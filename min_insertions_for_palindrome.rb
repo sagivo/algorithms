@@ -1,5 +1,5 @@
 #from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/
-class MinForPalindrom
+class MinForPalindrome
   def self.perform str, left=0, right=nil
     right ||= str.size-1
     return Float::INFINITY if left > right
@@ -8,5 +8,10 @@ class MinForPalindrom
   end
 end
 
-#test
-p MinForPalindrom.perform 'geeks' #3
+require 'test/unit'
+
+class MinForPalindromeTest < Test::Unit::TestCase
+  def test_algorithm
+    assert_equal 3, MinForPalindrome.perform('geeks')
+  end
+end
