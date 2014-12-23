@@ -6,6 +6,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 
 # Problems
 
+- [Dijkstra's shortest path between two nodes](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 - [Find the square root of a number](https://en.wikipedia.org/wiki/Newton%27s_method)
 - [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence)  
 - [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation)
