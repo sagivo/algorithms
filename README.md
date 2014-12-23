@@ -6,6 +6,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 
 # Problems
 
+- [Find the square root of a number](https://en.wikipedia.org/wiki/Newton%27s_method)
 - [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence)  
 - [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation)
 - [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets)  
