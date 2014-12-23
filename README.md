@@ -24,7 +24,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 
 # Why?
 I interviewed with Google, Facebook, Twitter, LinkedIn and others. 
-Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorisation of the same tricks. 
+Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks. 
 This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them. 
 
 # Contribute 
