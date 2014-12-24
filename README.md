@@ -25,7 +25,8 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 
 #How?  
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
-example: `ruby brackets_combinations.rb` will print: `["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
+example: `ruby brackets_combinations.rb` will print:  
+`["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
 
 # Why?
 I interviewed with Google, Facebook, Twitter, LinkedIn and others. 
