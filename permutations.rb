@@ -7,9 +7,8 @@ def perm arr, i=0
   end
 end
 
-=begin test 
 perm 'ABC' 
-
+=begin test 
 "ABC"
 "ACB"
 "BAC"
