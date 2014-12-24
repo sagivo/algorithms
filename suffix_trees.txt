@@ -6,3 +6,5 @@ suffix trees (liner time):
 
 KMP:
   - liner time finding substring in string (substring search) 
+
+TODO: implement suffix tree.
