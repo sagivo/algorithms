@@ -9,6 +9,7 @@ def sqr_root x, accuracy = 0.0001, round = 3
   b.round round
 end
 
+#test
 p sqr_root 0.4 #0.632
 p sqr_root 100 #10
 p sqr_root 12 #3.464

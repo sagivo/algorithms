@@ -23,11 +23,12 @@ def letters_for_number num
   end  
 end
 
-def join_sets set, i = 0, str = ''  
-  return p str if str.size == set.size
+def join_sets set, i = 0, str = '', result = []
+  return result << str if str.size == set.size
   for item in set[i]    
-    join_sets set, i.succ, str + item.to_s
+    join_sets set, i.succ, str + item.to_s, result
   end
+  result
 end
 
 def phone_options number
@@ -35,17 +36,5 @@ def phone_options number
   join_sets set
 end
 
-phone_options '10-34'
-=begin
-  
-"100DG"
-"100DH"
-"100DI"
-"100EG"
-"100EH"
-"100EI"
-"100FG"
-"100FH"
-"100FI"
-  
-=end
+#test
+p phone_options '10-34' #["100DG", "100DH", "100DI", "100EG", "100EH", "100EI", "100FG", "100FH", "100FI"]

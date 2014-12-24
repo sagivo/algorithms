@@ -24,14 +24,8 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 
 #How?  
-Simply take a look at the `lib` folder, all the code is there. In case you want to run any function, look at the `test` folder to see some samples.   
-`BracketsCombinations.perform('', 0, 0, 3)`  
-will print:  
-((()))  
-(()())  
-(())()  
-()(())  
-()()()  
+Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
+example: `ruby brackets_combinations.rb` will print: `["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
 
 # Why?
 I interviewed with Google, Facebook, Twitter, LinkedIn and others. 
