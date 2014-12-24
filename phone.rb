@@ -13,11 +13,11 @@ def letters_for_number num
     when 6 
       ['M', 'N', 'O']
     when 7 
-      ['P', 'R', 'S']
+      ['P', 'Q', 'R', 'S']
     when 8 
       ['T', 'U', 'V']
     when 9 
-      ['W' ,'X', 'Y']
+      ['W' ,'X', 'Y', 'Z']
     else
       []
   end  
