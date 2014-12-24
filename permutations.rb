@@ -1,12 +1,19 @@
-def perm arr, i=0, result = []
-  result << arr if i == arr.size
+def perm arr, i=0
+  p arr if i == arr.size
   (i..arr.size-1).each do |j|
     arr[i], arr[j] = arr[j], arr[i]
-    perm arr, i+1, result
+    perm arr, i+1
     arr[i], arr[j] = arr[j], arr[i]
   end
-  result
 end
 
-#test
-p perm 'ABC' #["ABC", "ABC", "ABC", "ABC", "ABC", "ABC"]
+=begin test 
+perm 'ABC' 
+
+"ABC"
+"ACB"
+"BAC"
+"BCA"
+"CBA"
+"CAB"
+=end
