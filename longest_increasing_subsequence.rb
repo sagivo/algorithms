@@ -10,4 +10,26 @@ def lis arr
   p a.last
 end
 
+# DP method.
+def lis_dp arr
+	dp = [1] * arr.length
+	pi = [-1] * arr.length
+	last_index = 0
+	arr.each_with_index{|i,v|
+		i.times{|j|
+			if arr[j] < arr[i] and dp[i] < dp[j] + 1
+				dp[i] = dp[j] + 1
+				pi[i] = j
+			end
+			last_index = i if dp[last_index] < dp[i]
+		}
+	}
+	lis_seq = []
+	while last_index >= 0
+		lis_seq.push(arr[last_index])
+		last_index = pi[last_index]
+	end
+	lis_seq.reverse
+end
+
 lis [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
