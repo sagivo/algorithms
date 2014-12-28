@@ -15,7 +15,7 @@ def lis_dp arr
 	dp = [1] * arr.length
 	pi = [-1] * arr.length
 	last_index = 0
-	arr.each_with_index{|i,v|
+	arr.each_with_index{|v,i|
 		i.times{|j|
 			if arr[j] < arr[i] and dp[i] < dp[j] + 1
 				dp[i] = dp[j] + 1
