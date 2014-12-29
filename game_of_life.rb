@@ -1,82 +1,74 @@
 # Alogirthm for Game of Life 
 # Check more details here - http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
-require "matrix"
-
 class GameOfLife
-  attr_accessor :matrix, :cells, :rows, :columns
+  attr_accessor :matrix, :rows, :columns
 
   def initialize rows, columns
     @rows, @columns = rows, columns
-    @matrix = Matrix.build(rows, columns) do |row, column|
-      Cell.new(row, column)
-    end.to_a
-    @cells = @matrix.flatten
+    @matrix = []
+    rows.times do |row|
+      @matrix[row] ||= []
+      columns.times do |column|
+        @matrix[row][column] = false
+      end
+    end
   end
 
   def next_tick
-    cells.each do |cell|
-      cell.die unless cell.should_stay_live?(matrix)
-      cell.reborn if cell.should_be_reborn?(matrix)
+    new_matrix = []
+    rows.times do |row|
+      new_matrix[row] ||= []
+      columns.times do |column|
+        alive_neighbours_count = neighbours(row, column).count(true)
+        if !self.matrix[row][column] && alive_neighbours_count == 3
+          new_matrix[row][column] = true
+        elsif self.matrix[row][column] && alive_neighbours_count != 2 && alive_neighbours_count != 3
+          new_matrix[row][column] = false
+        else
+          new_matrix[row][column] = self.matrix[row][column]
+        end
+      end
     end
-    cells.each {|cell| cell.previous_alive = cell.alive}
+    self.matrix = new_matrix
   end
 
   def print_cells
-    rows.times do |y|
-      columns.times do |x|
-        cell = matrix[y][x]
-        cell.alive ? print("O") : print("-")
+    rows.times do |row|
+      columns.times do |column|
+        matrix[row][column] ? print("O") : print("-")
       end
       print "\n"
     end
     print "\n"
   end
-end
 
-class Cell
-  attr_accessor :row, :column, :alive, :previous_alive
-
-  def initialize row, column, alive=false
-    @row, @column, @alive, @previous_alive = row, column, alive, alive
-  end
-
-  def alive= value
-    @previous_alive = @alive = value
-  end
-
-  def neighbours matrix
-    if @neighbours.nil?
-      @neighbours = []
-      rows_limit = matrix.count - 1
-      columns_limit = matrix[0].count - 1
-      ([0, row-1].max..[rows_limit, row+1].min).to_a.each do |row_index|
-        ([0, column-1].max..[columns_limit, column+1].min).to_a.each do |column_index|
-          @neighbours << matrix[row_index][column_index] unless row_index == row && column_index == column
-        end
+  def neighbours row, column
+    neighbours = []
+    rows_limit = matrix.count - 1
+    columns_limit = matrix[0].count - 1
+    ([0, row-1].max..[rows_limit, row+1].min).to_a.each do |row_index|
+      ([0, column-1].max..[columns_limit, column+1].min).to_a.each do |column_index|
+        neighbours << matrix[row_index][column_index] unless row_index == row && column_index == column
       end
     end
-    @neighbours
+    neighbours
   end
+end
 
-  def alive_neighbours matrix
-    neighbours(matrix).select { |cell| cell.previous_alive }
-  end
+game = GameOfLife.new(100, 100)
 
-  def should_stay_live? matrix
-    (alive_neighbours(matrix).count == 2 ||
-      alive_neighbours(matrix).count == 3) && alive
-  end
+# set alive cells
+game.matrix[0][0] = true
+game.matrix[0][1] = true
+game.matrix[1][0] = true
+game.matrix[1][3] = true
+game.matrix[2][1] = true
+game.matrix[2][2] = true
 
-  def should_be_reborn? matrix
-    alive_neighbours(matrix).count == 3 && !alive
-  end
+game.print_cells
 
-  def die
-    @alive = false
-  end
-
-  def reborn
-    @alive = true
-  end
+5.times do
+  game.next_tick
+  game.print_cells
 end
