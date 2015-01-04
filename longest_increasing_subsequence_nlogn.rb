@@ -1,3 +1,4 @@
+#nlogn
 def lis arr
   return [] if arr.empty?
   n = arr.size

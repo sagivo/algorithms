@@ -1,3 +1,4 @@
+#n^2
 def lis arr
   a = Array.new(arr.size) { |i| i = [arr[i]] }  
   (1..arr.size-1).each do |i|
