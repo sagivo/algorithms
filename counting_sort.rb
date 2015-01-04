@@ -1,12 +1,4 @@
 
-# Sorts a list of integers.
-# @param a [List] list of integers
-# @param k [Integer] a number such that all integers in list 'a' are in the range 0..k-1
-# @return [List] the sorted list
-#
-# ==== Examples
-# counting_sort([20,12,3,2,2,2,1,1,0,0],21) => [0, 0, 1, 1, 2, 2, 2, 3, 12, 20]
-#
 def counting_sort(a, k)
   c = Array.new(k+1, 0) # initialize counting array with k+1 zero values
 
@@ -28,8 +20,5 @@ def counting_sort(a, k)
   b
 end
 
+#test
 p counting_sort [7,20,12,3,2,2,2,1,1,0,0], 21 # => [0, 0, 1, 1, 2, 2, 2, 3, 7, 12, 20]
-
-p counting_sort [0], 1 # => [0]
-
-p counting_sort [], 0 # => []
