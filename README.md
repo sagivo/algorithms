@@ -21,6 +21,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)
 - [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort)
+- [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort)
 - [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 
