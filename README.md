@@ -22,6 +22,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)
 - [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort)
 - [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort)
+- [Shellsort algorithm](http://en.wikipedia.org/wiki/Shellsort)
 - [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 
