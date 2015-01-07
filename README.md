@@ -19,6 +19,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi)  
 - [Find the minimum insertions needed to make a word palindrome](from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/)
 - [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm)
+- [Balanced Parentheses](http://stackoverflow.com/questions/14930073/how-to-check-if-a-string-is-balanced)
 - [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort)
 - [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort)
 - [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort)
