@@ -27,6 +27,7 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 - [Shellsort algorithm](http://en.wikipedia.org/wiki/Shellsort)
 - [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem)
 - [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+- [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_hall_problem)
 
 #How?  
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
