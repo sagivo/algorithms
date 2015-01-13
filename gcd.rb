@@ -21,11 +21,11 @@ end
 
 # ax + by = gcd(x, y)
 def xgcd_iter(x, y)
-  a, aa = 1, 0
-  b, bb = 0, 1
+  a, next_a = 1, 0
+  b, next_b = 0, 1
   while y != 0
-    a, aa = aa, a-x/y*aa
-    b, bb = bb, b-x/y*bb
+    a, next_a = next_a, a-x/y*next_a
+    b, next_b = next_b, b-x/y*next_b
     x, y  = y, x%y
   end
   [x, a, b]
