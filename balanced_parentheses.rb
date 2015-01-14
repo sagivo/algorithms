@@ -13,5 +13,8 @@ def balanced_parentheses(str)
   stack.empty?
 end
 
-#test
-p balanced_parentheses '( () ( () ) () )' # => true
+# Tests
+['', '(', ')', '()', '())', '( () ( () ) () )'].each do |test_case|
+  result = balanced_parentheses(test_case)
+  puts "#{test_case.inspect} => #{result}"
+end
