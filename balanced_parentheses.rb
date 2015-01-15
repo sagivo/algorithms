@@ -1,4 +1,4 @@
-def balanced_parentheses(str)
+def balanced_parentheses?(str)
   stack = []
   str.chars.each do |token|
     case token
@@ -14,4 +14,4 @@ def balanced_parentheses(str)
 end
 
 #test
-p balanced_parentheses '( () ( () ) () )' # => true
+p balanced_parentheses? '( () ( () ) () )' # => true
