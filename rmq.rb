@@ -1,9 +1,4 @@
-#!/usr/bin/env ruby
-
-# range minimum query
-# sparse table algorithm
-# O(nlogn) preprocess time
-# O(logn) query time
+# range minimum query, sparse table algorithm. O(nlogn) preprocess time
 class RMQ
   def initialize(arr)
     n = arr.size
@@ -34,12 +29,12 @@ end
     min = arr[l..r].min
     cur_min = rmq.query(l, r)
     if min != cur_min
-      puts "error!"
-      puts arr.join(' ')
-      puts "query on range [#{l}, #{r}], minimum should be #{min}, found #{cur_min}!"
+      p "error!"
+      p arr.join(' ')
+      p "query on range [#{l}, #{r}], minimum should be #{min}, found #{cur_min}!"
       exit 1
     end
   end
 end
 
-puts "ok"
+p "ok"
