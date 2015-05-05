@@ -32,6 +32,8 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 | [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_hall_problem)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/monty_hall.rb)                                                                                                               |
 | [Eucliden and Extended Eucliden algorithm](http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/gcd.rb)                                                                                                               |
 | [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/rmq.rb)                                                                                                               |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/insertion_sort.rb)                                                   |
+
 
 #How?  
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
