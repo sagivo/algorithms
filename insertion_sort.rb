@@ -7,7 +7,7 @@ def insertion_sort a
       a[j] = a[j-1]
       j -= 1
     end
-  	a[j] = x
+    a[j] = x
   end
   a
 end
