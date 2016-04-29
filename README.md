@@ -4,6 +4,11 @@ Algorithms
 Algorithms playground for common questions solved in ruby syntax.  
 In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.  
 
+# Why?
+I interviewed with [Google](https://github.com/sagivo/algorithms/blob/master/src/google-interview-tips.md), [Facebook](https://github.com/sagivo/algorithms/blob/master/src/facebook-interview-tips.md), [LinkedIn](https://github.com/sagivo/algorithms/blob/master/src/linkedin-interview.md), Twitter and others. I also interviewed others myself. 
+Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks. 
+This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them. 
+
 # Problems
 
 | problem                                                                                                                                                                                 | solution                                                                                                                                                                              |
@@ -44,11 +49,6 @@ In case you want to prepare yourself for a job interview - try to solve it yours
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
 example: `ruby brackets_combinations.rb` will print:  
 `["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
-
-# Why?
-I interviewed with [Google](https://github.com/sagivo/algorithms/blob/master/src/google-interview-tips.md), [Facebook](https://github.com/sagivo/algorithms/blob/master/src/facebook-interview-tips.md), [LinkedIn](https://github.com/sagivo/algorithms/blob/master/src/linkedin-interview.md), Twitter and others. I also interviewed others myself. 
-Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks. 
-This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them. 
 
 # Contribute 
 Did you find a bug? any way to do it better? please feel free to pull-request it :)
