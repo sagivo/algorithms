@@ -45,7 +45,7 @@ This is my way of saying - change your interview style. There are lots of smart 
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)                                                   |
 
 
-#How?  
+# How?  
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
 example: `ruby brackets_combinations.rb` will print:  
 `["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
