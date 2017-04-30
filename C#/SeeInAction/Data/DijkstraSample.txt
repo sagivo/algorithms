@@ -1,0 +1,25 @@
+﻿"San Diego" Carlsbad 20
+"San Diego" "La Mesa" 5
+"San Diego" "National City" 2
+"San Diego" Riverside 120
+"San Diego" "Rancho Bernardo" 15
+Riverside "Los Angeles" 25
+"Los Angeles" Torrance 10
+Torrance "Costa Mesa" 20
+"Costa Mesa" Irvine 5
+Irvine Riverside 15
+Irvine Carlsbad 30
+"Los Angeles" Pasedena 10
+Torrance Malibu 30
+"Los Angeles" Malibu 20
+Riverside Barstow 75
+"Los Angeles" Barstow 90
+Barstow "Las Vegas" 300
+"San Diego" "El Cajon" 15
+Riverside "Palm Springs" 100
+"El Cajon" "Palm Springs" 90
+"Palm Springs" Barstow 65
+"National City" "El Cajon" 10
+"El Cajon" Julian 35
+Julian Riverside 70
+Julian Yuma 275
