@@ -5,7 +5,9 @@ def balanced_parentheses?(str)
       when '('
         stack.push '('
       when ')'
-        if stack.empty? || stack.pop != '('
+        if !stack.empty? 
+          stack.pop
+        else
           return false
         end
     end
@@ -15,3 +17,4 @@ end
 
 #test
 p balanced_parentheses? '( () ( () ) () )' # => true
+p balanced_parentheses? '(()' # => false
