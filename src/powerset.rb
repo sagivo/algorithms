@@ -1,14 +1,12 @@
 #powerset - subset of set
-def powerset arr
-  a = [[]] 
-  for num in arr
-    size_a = a.size; j = 0;
-    while j < size_a
-      a << (a[j] + [num])
-      j+=1
+def powerset(arr)
+  result = [[]] 
+  arr.each do |num|
+    (0...arr.size).each do |j|
+      result << result[j] + [num]
     end
   end 
-  a 
+  result
 end
 
 p powerset [1,2,3] #[[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
