@@ -5,9 +5,9 @@ Algorithms playground for common questions solved in ruby syntax.
 In case you want to prepare yourself for a job interview - try to solve it yourself first, then have a look here.  
 
 # Why?
-I interviewed with [Google](https://github.com/sagivo/algorithms/blob/master/src/google-interview-tips.md), [Facebook](https://github.com/sagivo/algorithms/blob/master/src/facebook-interview-tips.md), [LinkedIn](https://github.com/sagivo/algorithms/blob/master/src/linkedin-interview.md), Twitter and others. I also interviewed others myself. 
-Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks. 
-This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them. 
+I interviewed with [Google](https://github.com/sagivo/algorithms/blob/master/src/google-interview-tips.md), [Facebook](https://github.com/sagivo/algorithms/blob/master/src/facebook-interview-tips.md), [LinkedIn](https://github.com/sagivo/algorithms/blob/master/src/linkedin-interview.md), Twitter and others. I also interviewed others myself.
+Sometimes it looks like they all ask you the same "out of the box" questions that don't really check knowledge but memorization of the same tricks.
+This is my way of saying - change your interview style. There are lots of smart people out there, this is not the best way to find them.
 
 # Problems
 
@@ -48,7 +48,9 @@ This is my way of saying - change your interview style. There are lots of smart 
 | [Eucliden and Extended Eucliden algorithm](http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/gcd.rb)                                                                                                               |
 | Suggest index of a number in an array                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/sugget_index_in_array.rb)                                                                                                               |
 | [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/rmq.rb)                                                                                                               |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)                                                   |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)
+
+| [Towers of Hanoi using Stack](https://en.wikipedia.org/wiki/Tower_of_Hanoi)                                                                | [click](blob/master/src/towers_of_hanoi_with_stack.rb)                                      |
 
 
 # How?  
@@ -56,5 +58,5 @@ Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each f
 example: `ruby brackets_combinations.rb` will print:  
 `["((()))", "(()())", "(())()", "()(())", "()()()"]`.  
 
-# Contribute 
+# Contribute
 Did you find a bug? any way to do it better? please feel free to pull-request it :)
