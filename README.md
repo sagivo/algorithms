@@ -48,10 +48,8 @@ This is my way of saying - change your interview style. There are lots of smart 
 | [Eucliden and Extended Eucliden algorithm](http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/gcd.rb)                                                                                                               |
 | Suggest index of a number in an array                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/sugget_index_in_array.rb)                                                                                                               |
 | [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/rmq.rb)                                                                                                               |
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)
-             |
-| [Towers of Hanoi using Stack](https://en.wikipedia.org/wiki/Tower_of_Hanoi)                                                                | [click](blob/master/src/towers_of_hanoi_with_stack.rb)                                      
-             |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)                                                                                                               |
+| [Towers of Hanoi using Stack](https://en.wikipedia.org/wiki/Tower_of_Hanoi) | [click](blob/master/src/towers_of_hanoi_with_stack.rb)
 
 
 # How?  
