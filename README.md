@@ -49,6 +49,7 @@ This is my way of saying - change your interview style. There are lots of smart 
 | Suggest index of a number in an array                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/sugget_index_in_array.rb)                                                                                                               |
 | [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/rmq.rb)                                                                                                               |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)                                                   |
+| [Tarjan's strongly connected components finder](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/tarjan.rb)                                                   |
 
 
 # How?  
