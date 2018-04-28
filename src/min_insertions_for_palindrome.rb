@@ -1,11 +1,15 @@
-#from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/
-def min_for_palindrome str, left=0, right=nil
-  right ||= str.size-1
-  return Float::INFINITY if left > right
-  return 0 if left == right or (left == right-1 and str[left] == str[right])
-  return 1 if left == right-1
-  if str[left] == str[right] then min_for_palindrome(str, left+1, right-1) else [min_for_palindrome(str,left+1, right), min_for_palindrome(str,left,right-1)].min + 1 end
+# #from http://www.geeksforgeeks.org/dynamic-programming-set-28-minimum-insertions-to-form-a-palindrome/
+def shortest_palindrome(s)
+  helper(s, 0, s.size-1)
 end
 
-#test
-p min_for_palindrome 'geek' #2 -> kgeegk
+def helper(s, i, j)
+  return 0 if i >= j
+  if s[i] == s[j]
+    return helper(s, i+1, j-1)
+  else
+    return 1 + [helper(s, i+1, j), helper(s, i, j-1)].min
+  end
+end
+
+p shortest_palindrome('geek') # => 2 (kgeegk)
