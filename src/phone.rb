@@ -1,31 +1,31 @@
-def letters_for_number num 
+def letters_for_number num
   case num
     when 0, 1
       [num]
-    when 2 
-      ['A', 'B', 'C'] 
-    when 3 
+    when 2
+      ['A', 'B', 'C']
+    when 3
       ['D', 'E', 'F']
-    when 4 
+    when 4
       ['G', 'H', 'I']
-    when 5 
+    when 5
       ['J', 'K', 'L']
-    when 6 
+    when 6
       ['M', 'N', 'O']
-    when 7 
+    when 7
       ['P', 'Q', 'R', 'S']
-    when 8 
+    when 8
       ['T', 'U', 'V']
-    when 9 
+    when 9
       ['W' ,'X', 'Y', 'Z']
     else
       []
-  end  
+  end
 end
 
 def join_sets set, i = 0, str = '', result = []
   return result << str if str.size == set.size
-  for item in set[i]    
+  for item in set[i]
     join_sets set, i.succ, str + item.to_s, result
   end
   result
