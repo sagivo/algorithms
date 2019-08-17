@@ -26,7 +26,7 @@ end
 def join_sets set, i = 0, str = '', result = []
   return result << str if str.size == set.size
   for item in set[i]
-    join_sets set, i.succ, str + item.to_s, result
+    join_sets set, i + 1, str + item.to_s, result
   end
   result
 end
