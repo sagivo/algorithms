@@ -1,11 +1,11 @@
 #powerset - subset of set
 def powerset(arr)
-  result = [[]] 
+  result = [[]]
   arr.each do |num|
-    (0...arr.size).each do |j|
+    (0...result.size).each do |j|
       result << result[j] + [num]
     end
-  end 
+  end
   result
 end
 
