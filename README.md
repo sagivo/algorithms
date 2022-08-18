@@ -62,7 +62,7 @@ This is my way of saying - change your interview style. There are lots of smart 
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/insertion_sort.rb)                                                                                                               |
 | [Towers of Hanoi using Stack](https://en.wikipedia.org/wiki/Tower_of_Hanoi) | [click](blob/master/src/towers_of_hanoi_with_stack.rb)
 | [Tarjan's strongly connected components finder](https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm)                                                                | [click](https://github.com/sagivo/algorithms/blob/master/src/tarjan.rb)                                                   |
-
+| [Complete Binary Tree](https://www.scaler.com/topics/complete-binary-tree/)                                                                                                                  | [click](https://github.com/sagivo/algorithms/blob/master/src/gcd.rb)                                                                                                               |
 
 # How?  
 Simply run `ruby some_file.rb` to execute the algorithm. At the bottom of each file there are some test samples.  
